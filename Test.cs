@@ -20,7 +20,8 @@ public class Test {
         }
 
     }
-    
+
+    // You don't have to use this.
     public string FirstThingLambdaExpression {
         get => firstThing;
         set => firstThing = value;

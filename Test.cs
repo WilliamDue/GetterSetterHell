@@ -6,6 +6,7 @@ public class Test {
     public string SecondThing { get; set; }
     public string PrivateSetter { get; private set; }
     public string OnlyGettable { get; }
+
     public string FirstThing {
 
         get {
@@ -19,6 +20,7 @@ public class Test {
         }
 
     }
+    
     public string FirstThingLambdaExpression {
         get => firstThing;
         set => firstThing = value;
